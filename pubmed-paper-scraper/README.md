@@ -8,21 +8,14 @@ This is a Python command-line tool that fetches research papers from PubMed base
 
 pubmed-paper-scraper/
 
-├── cli.py # Command-line interface script
+├── pubmed_paper_scraper/        ← ✅ This is your module
+│   ├── fetcher.py
+│   ├── parser.py
+│   └── __init__.py
 
-├── README.md # Project documentation
 
-├── pyproject.toml # Poetry config
+├── cli.py                        ← ✅ This is your command-line interface
 
-└── pubmed_paper_scraper/
-
-├── init.py # Package initializer
-
-├── fetcher.py # Fetches data from PubMed API
-
-├── parser.py # Parses and filters relevant paper details
-
-└── utils.py #  Extra helper functions
 
 ---
 
