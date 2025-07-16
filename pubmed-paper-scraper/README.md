@@ -7,13 +7,21 @@ This is a Python command-line tool that fetches research papers from PubMed base
 ## 📁 Project Structure
 
 pubmed-paper-scraper/
+
 ├── cli.py # Command-line interface script
+
 ├── README.md # Project documentation
+
 ├── pyproject.toml # Poetry config
+
 └── pubmed_paper_scraper/
+
 ├── init.py # Package initializer
+
 ├── fetcher.py # Fetches data from PubMed API
+
 ├── parser.py # Parses and filters relevant paper details
+
 └── utils.py #  Extra helper functions
 
 ---
