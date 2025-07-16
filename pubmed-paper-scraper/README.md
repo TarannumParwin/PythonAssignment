@@ -8,7 +8,8 @@ This is a Python command-line tool that fetches research papers from PubMed base
 
 pubmed-paper-scraper/
 
-├── pubmed_paper_scraper/        ← ✅ This is your module
+├── pubmed_paper_scraper/
+                                   ← ✅ This is your module
 │   ├── fetcher.py
 
 │   ├── parser.py
