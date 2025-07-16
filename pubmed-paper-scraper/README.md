@@ -10,7 +10,9 @@ pubmed-paper-scraper/
 
 ├── pubmed_paper_scraper/        ← ✅ This is your module
 │   ├── fetcher.py
+
 │   ├── parser.py
+
 │   └── __init__.py
 
 
